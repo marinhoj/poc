@@ -1,0 +1,188 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /usr/github/poc_daitan/catalogo-filmes
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git config --local branch.master.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+From https://github.com/EmmanuelSarachini/catalogo-filmes
+ * branch            master     -> FETCH_HEAD
+> git push origin master:master
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+To https://github.com/EmmanuelSarachini/catalogo-filmes.git
+   453ff63..db9b08f  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+From https://github.com/EmmanuelSarachini/catalogo-filmes
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z HEAD
+> git reset --soft HEAD~
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+From https://github.com/EmmanuelSarachini/catalogo-filmes
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git ls-files --stage -- /usr/github/poc_daitan/catalogo-filmes/catalogo-filmes/src/app/components/home.component.html
+> git cat-file -s 162eb013d78dc0d61d3804f2156c183f965a4158
+> git show --textconv :catalogo-filmes/src/app/components/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

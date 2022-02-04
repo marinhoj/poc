@@ -1,0 +1,40 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /usr/github/moviefinder
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/github/moviefinder/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/github/moviefinder/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.storybook/addons.js
+> git ls-files --stage -- /usr/github/moviefinder/.storybook/addons.js
+> git cat-file -s 47eabe0ce4002b00f889e2522ee24f2a3e0e52f3
+> git show --textconv :.storybook/config.js
+> git ls-files --stage -- /usr/github/moviefinder/.storybook/config.js
+> git cat-file -s 493c30eedfa246ebe57ac05d19a8966e57941149
+> git show --textconv :.storybook/tsconfig.json
+> git ls-files --stage -- /usr/github/moviefinder/.storybook/tsconfig.json
+> git cat-file -s 30070058f9ec6e3aaece9e1c6893e87be14c2c42
+> git show --textconv :.storybook/tsconfig.json
+> git ls-files --stage -- /usr/github/moviefinder/.storybook/tsconfig.json
+> git cat-file -s 30070058f9ec6e3aaece9e1c6893e87be14c2c42
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/github/moviefinder/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template

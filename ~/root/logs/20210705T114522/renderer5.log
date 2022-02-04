@@ -1,0 +1,8 @@
+[2021-07-05 16:10:52.101] [renderer5] [error] Error: Unable to read file '/usr/github/moviefinder/.storybook/tsconfig.json' (Error: Unable to resolve non-existing file '/usr/github/moviefinder/.storybook/tsconfig.json')
+    at Object.r [as createErrorWithActions] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:9:490)
+    at i.handleSetInputError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2470:164407)
+    at i.handleSetInputError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2470:168465)
+    at i.setInput (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2470:164124)
+    at async u.doSetInput (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2470:132720)
+    at async u.openEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2470:131131)
+    at async file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2680:16248
