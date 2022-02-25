@@ -18,7 +18,7 @@
           mb-md-0
         "
       >
-        <li><a href="/" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="/" class="nav-link px-2 link-dark">Home</a></li>
         <li>
           <a
             href="https://www.themoviedb.org/?language=pt-BR"
@@ -41,24 +41,26 @@
         >
           <li>
             <a
-              href="https://github.com/EmmanuelSarachini"
-              class="nav-link px-2 link-secondary"
-              >GitHub</a
-            >
+              href="https://github.com/joseguilhermemarinho"
+              target="_blank"
+              class="nav-link px-2 link-dark"
+              >
+              <i class="fa-brands fa-github">
+                <a class="icone"></a>
+              </i>
+            </a>
           </li>
+
           <li>
             <a
-              href="https://www.linkedin.com/in/emmanuel-rosa-sarachini-de-oliveira-4a7b4874/"
+              href="https://www.linkedin.com/in/jgamdev"
+              target="_blank"
               class="nav-link px-2 link-dark"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/emmanuel.sarachini/"
-              class="nav-link px-2 link-dark"
-              >Facebook</a
-            >
+              >
+              <i class="fa-brands fa-linkedin">
+                <a class="icone"></a>
+              </i>
+            </a>
           </li>
         </ul>
       </form>
@@ -71,29 +73,28 @@
     <div class="container">
       <form class="form-inline my-2 my-lg-0">
         <input
-          style="border-radius: 25px"
+          style="border-radius: 5px"
           type="search"
           class="form-control"
-          placeholder="Busque por filmes, séries, atores..."
+          placeholder="Search..."
           [(ngModel)]="stringSearch"
           name="searchStr"
           (keyup.enter)="search($event)"
         />
-        <small style="color: #369">Aperte "enter" para buscar.</small>
       </form>
     </div>
   </section>
 
-  <div class="container" *ngIf="data">
+  <div class="container justify-content-center" *ngIf="data">
     <div class="row" style="padding: 5px">
       <div
         class="col-md-4 d-flex align-items-stretch"
         *ngFor="let movie of data"
       >
-        <div class="card box-shadow" style="border-radius: 25px; margin: 5px">
+        <div class="card-box-shadow" style="border-radius: 0x; margin: 5px;">
           <img
             class="card-img-top"
-            style="border-radius: 25px"
+            style="border-radius: 3px"
             data-src="{{ url_img + movie.poster_path }}"
             alt="Card image cap"
           />
