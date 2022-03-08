@@ -1,11 +1,18 @@
-
   .app-home-page {
-    background-color: #fff;
+    background-color: rgb(31, 50, 90);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
   }
 
   .card-body {
-    background-color: #fff;
+    background-color: white;
   }
 
+  .container {
+    max-width: 1000px;
+  }
+
+  .nav {
+    align-content: center;
+    color: white;
+  }
