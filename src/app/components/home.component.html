@@ -97,11 +97,14 @@
                 text-muted
               "
             >
-              <small
-                >Release date:
-                {{ movie.release_date | date: "dd/MM/yyyy" }}</small
-              >
-              <small>Average score: {{ movie.vote_average }}</small>
+              <span style="white-space: pre-line">
+                Release date:
+                {{ movie.release_date | date: "dd/MM/yyyy" }}
+              </span>
+              <span style="white-space: pre-line">
+                Average score: 
+                {{ movie.vote_average }}
+              </span>
             </div>
           </div>
         </div>
