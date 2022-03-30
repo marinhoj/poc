@@ -26,13 +26,19 @@ export class HomeComponent implements OnInit {
   public title = 'POC DAITAN - Catalogo de filmes'
 
 
- ngOnInit() {
+  ngOnInit() {
     this.loadInicial();
   }
 
   async loadInicial() {
     await this.catalogoFilmesService.getTreding().subscribe(filmes => {
       this.data = filmes.results;
+      
+      this.data.array.forEach((movie: any) => {
+        movie.release_date = movie.release_date ? movie.release_date : 'Could not find.';
+        this.data.release_date = movie.release_date
+      });
+
       console.log(this.data);
       this.returnVideoId(this.data);
     });
@@ -41,10 +47,10 @@ export class HomeComponent implements OnInit {
 
    search(event: any) {
     this.data = [];
-     this.catalogoFilmesService.search_(this.stringSearch).subscribe(filmes => {
+    this.catalogoFilmesService.search_(this.stringSearch).subscribe(filmes => {
       this.data = filmes.results;
-      this.returnVideoId(this.data);
-      console.log('busca -> ', this.data);
+      this.stringSearch == '' ? this.returnVideoId(this.data) : this.loadInicial ;
+      console.log('busca -> ', this.data); // if search == vazio return main page
     });
   }
 
@@ -55,7 +61,4 @@ export class HomeComponent implements OnInit {
       });
     });
   }
-
 }
-
-
